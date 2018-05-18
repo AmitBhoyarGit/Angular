@@ -1,0 +1,5 @@
+<p *ngIf="selectedRow!=null">
+  <input type="text" [ngModel]="selectedRow.name" />
+  <input type="text" [(ngModel)]="selectedRow.address" />
+  <input type="text" [(ngModel)]="selectedRow.salary" />
+</p>
